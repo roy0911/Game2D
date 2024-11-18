@@ -11,6 +11,7 @@ class Game(val scope: CoroutineScope, screenW:Int, val screenH: Int) {
     val background = Background(screenW)
     var isPlaying = true
 
+
     fun Play(){
 
 
